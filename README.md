@@ -107,8 +107,14 @@ $ ssh -i your_private_key ubuntu@$PUBLIC_IP
 *
 * ![mongodb-connect](./image/connect.jpg?raw=true "Private Link Connection")
 *
+*  Now, you are taken to the standard connect dialogue, we will use the Mongo Shell from the terminal
+* ![mongodb-connect](./image/connect2.jpg?raw=true "MongoDB Connection Dialogue")
 *
-* Delete all resources
+* Copy the connection string, change the user login to the one you provisioned, and add your password
+*
+* ![mongodb-connect](./image/connect3.jpg?raw=true "Shell Login")
+*
+* Delete all resources, when you are done
 ```sh
 $ terraform destroy
 ```
