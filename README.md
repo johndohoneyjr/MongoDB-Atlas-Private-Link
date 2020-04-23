@@ -99,8 +99,13 @@ $ ssh -i your_private_key ubuntu@$PUBLIC_IP
 ```
 * Check you can ping and ssh any other instance in the other VPCs
 * Also check that, from a dev instance (1 & 2) you cannot reach the prod instance (4) and vice-versa.
-* You can now access the MongoDB Atlas Cluster, either via the Transit gateway through VPC 3 (that you log into or by ssh to
-* VPC 4 and accessing the Mongo Cluster that way as well.
+* You can now access the MongoDB Atlas Cluster, either via the Transit gateway through VPC 3 (that you 
+* log into or by ssh to VPC 4 and accessing the Mongo Cluster that way as well.
+*
+* There is no need to Whitelist the Private Link CIDR, as you need to for VPC Peering.  The RFC 1918 private
+* IPs can be accessed from your cluster.  See connecting in the screenshot below:
+*
+* ![mongodb-connect](./image/connect.jpg?raw=true "Private Link Connection")
 *
 *
 * Delete all resources
