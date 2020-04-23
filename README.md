@@ -99,6 +99,10 @@ $ ssh -i your_private_key ubuntu@$PUBLIC_IP
 ```
 * Check you can ping and ssh any other instance in the other VPCs
 * Also check that, from a dev instance (1 & 2) you cannot reach the prod instance (4) and vice-versa.
+* You can now access the MongoDB Atlas Cluster, either via the Transit gateway through VPC 3 (that you log into or by ssh to
+* VPC 4 and accessing the Mongo Cluster that way as well.
+*
+*
 * Delete all resources
 ```sh
 $ terraform destroy
