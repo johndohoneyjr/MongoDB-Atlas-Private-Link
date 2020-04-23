@@ -55,7 +55,7 @@ The production environment has a Centos AMI, with MongoDB Binaries pre-installed
 
 ## Architecture Implementation
 
-![transit-gateway-architecture](./image/transit-gateway-demo.png?raw=true "Transit Gateway Architecture")
+![transit-gateway-architecture](./image/MongoDBAtlas-PrivateLink.png?raw=true "Transit Gateway Architecture")
 
 The green links on the diagram represents the authorized traffic flows through the gateway.
 
