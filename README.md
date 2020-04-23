@@ -112,7 +112,8 @@ $ ssh -i your_private_key ubuntu@$PUBLIC_IP
 *
 * Copy the connection string, change the user login to the one you provisioned, and add your password
 *
-* ![mongodb-connect](./image/connect3.jpg?raw=true "Shell Login")
+* ![mongodb-connect](./image/connect3.jpg?raw=true "Terminal Login")
+*
 *
 * Delete all resources, when you are done
 ```sh
